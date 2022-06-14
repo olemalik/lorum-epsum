@@ -1,0 +1,10 @@
+<ng-container *ngIf="false">
+    <app-users-table *ngIf="userList.length > 0" [userList]="userList"></app-users-table>
+  </ng-container>
+  
+  <ng-container *ngIf="true">
+    <app-users-grid [userList]="userList"></app-users-grid>
+  </ng-container>
+  
+  
+  

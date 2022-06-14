@@ -1,0 +1,22 @@
+<!--
+<mat-nav-list>
+   <mat-list-item>   
+        <span>Lorum Ipsum</span>
+   </mat-list-item>
+   <mat-list-item *ngFor="let menu of menuItems">
+       <button mat-icon-button >
+          <mat-icon>{{menu.icon}}</mat-icon>
+       </button>
+      <a matLine href="{{menu.path}}">{{  menu.title }}</a>
+   </mat-list-item>
+ </mat-nav-list>-->
+
+
+ <mat-nav-list>
+    <a mat-list-item>Menu</a>
+    <mat-divider></mat-divider>
+    <a mat-list-item href="{{menu.path}}" *ngFor="let menu of menuItems"> 
+        <mat-icon matListIcon >{{menu.icon}} </mat-icon> 
+        <span>{{  menu.title }} </span>
+    </a>
+ </mat-nav-list> 

@@ -1,0 +1,29 @@
+{
+    "kpi": [
+      { "totalorders": "345", "totalexpenses": "267",  "totalrevenue": "455", "newusers": "185" }
+    ],
+    "users": [
+      { "id": 1, "profpic": "https://lorumlpsum.s3.amazonaws.com/marc.jpg", "name": "Lorum Epsum", "designation": "consectetur adipiscing", "joiningdate": "12/07/2020" },
+      { "id": 2, "profpic": "https://lorumlpsum.s3.amazonaws.com/marc2.png", "name": "Lorum Epsum", "designation": "consectetur adipiscing", "joiningdate": "12/07/2020" },
+      { "id": 3, "profpic": "https://lorumlpsum.s3.amazonaws.com/marc.jpg", "name": "Lorum Epsum", "designation": "consectetur adipiscing", "joiningdate": "12/07/2020" },
+      { "id": 4, "profpic": "https://lorumlpsum.s3.amazonaws.com/marc2.png", "name": "Lorum Epsum", "designation": "consectetur adipiscing", "joiningdate": "12/07/2020" },
+      { "id": 5, "profpic": "https://lorumlpsum.s3.amazonaws.com/marc.jpg", "name": "Lorum Epsum", "designation": "consectetur adipiscing", "joiningdate": "12/07/2020" },
+      { "id": 6, "profpic": "https://lorumlpsum.s3.amazonaws.com/marc2.png", "name": "Lorum Epsum", "designation": "consectetur adipiscing", "joiningdate": "12/07/2020" },
+      { "id": 7, "profpic": "https://lorumlpsum.s3.amazonaws.com/marc.jpg", "name": "Lorum Epsum", "designation": "consectetur adipiscing", "joiningdate": "12/07/2020" },
+      { "id": 8, "profpic": "https://lorumlpsum.s3.amazonaws.com/marc2.png", "name": "Lorum Epsum", "designation": "consectetur adipiscing", "joiningdate": "12/07/2020" },
+      { "id": 9, "profpic": "https://lorumlpsum.s3.amazonaws.com/marc.jpg", "name": "Lorum Epsum", "designation": "consectetur adipiscing", "joiningdate": "12/07/2020" }
+    ],
+    "recentblogs": [
+      { "id": 1, "blogpic": "https://lorumlpsum.s3.amazonaws.com/home.jpg", "title": "Lorem ipsum dolor sit amet", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi ex, mattis ac purus ac, ullamcorper molestie arcu. Duis dignissim condimentum lacinia. Cras rutrum orci at viverra tincidunt" },
+      { "id": 2, "blogpic": "https://lorumlpsum.s3.amazonaws.com/home.jpg", "title": "Lorem ipsum dolor sit amet", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi ex, mattis ac purus ac, ullamcorper molestie arcu. Duis dignissim condimentum lacinia. Cras rutrum orci at viverra tincidunt" },
+      { "id": 3, "blogpic": "https://lorumlpsum.s3.amazonaws.com/home.jpg", "title": "Lorem ipsum dolor sit amet", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi ex, mattis ac purus ac, ullamcorper molestie arcu. Duis dignissim condimentum lacinia. Cras rutrum orci at viverra tincidunt" },
+      { "id": 4, "blogpic": "https://lorumlpsum.s3.amazonaws.com/home.jpg", "title": "Lorem ipsum dolor sit amet", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi ex, mattis ac purus ac, ullamcorper molestie arcu. Duis dignissim condimentum lacinia. Cras rutrum orci at viverra tincidunt" }
+    ],
+    "allblogs": [
+      { "id": 1, "blogpic": "https://lorumlpsum.s3.amazonaws.com/blog.jpg", "title": "Lorem ipsum dolor sit amet", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi ex, mattis ac purus ac, ullamcorper molestie arcu. Duis dignissim condimentum lacinia. Cras rutrum orci at viverra tincidunt", "createddate": "12/07/2020", "username": "Alex Paul" },
+      { "id": 2, "blogpic": "https://lorumlpsum.s3.amazonaws.com/blog.jpg", "title": "Lorem ipsum dolor sit amet", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi ex, mattis ac purus ac, ullamcorper molestie arcu. Duis dignissim condimentum lacinia. Cras rutrum orci at viverra tincidunt", "createddate": "12/07/2020", "username": "Alex Paul" },
+      { "id": 3, "blogpic": "https://lorumlpsum.s3.amazonaws.com/blog.jpg", "title": "Lorem ipsum dolor sit amet", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi ex, mattis ac purus ac, ullamcorper molestie arcu. Duis dignissim condimentum lacinia. Cras rutrum orci at viverra tincidunt", "createddate": "12/07/2020", "username": "Alex Paul" },
+      { "id": 4, "blogpic": "https://lorumlpsum.s3.amazonaws.com/blog.jpg", "title": "Lorem ipsum dolor sit amet", "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi ex, mattis ac purus ac, ullamcorper molestie arcu. Duis dignissim condimentum lacinia. Cras rutrum orci at viverra tincidunt", "createddate": "12/07/2020", "username": "Alex Paul" }
+    ]
+  }
+  

@@ -1,0 +1,31 @@
+<!-- {{blogsList | json}} -->
+<div class="container">
+    <mat-card class="recent-blog-card">
+        <p>
+            <strong>Recent Blogs</strong>
+        </p>
+
+        <mat-divider></mat-divider>
+        <p>
+            <mat-grid-list cols="4" rowHeight="4:1">
+                <mat-grid-tile 
+                *ngFor="let blog of blogsList">
+
+                    <mat-card class="example-card">
+                        <img mat-card-image src="{{blog.blogpic}}">
+                        <mat-card-content>
+
+                            <p><strong> {{blog.title}} </strong><strong></strong></p>
+                           
+                            <p>
+                               {{blog.description}}
+                            </p>
+                        </mat-card-content>
+                    </mat-card>
+
+                </mat-grid-tile>
+
+            </mat-grid-list>
+        </p>
+    </mat-card>
+</div>

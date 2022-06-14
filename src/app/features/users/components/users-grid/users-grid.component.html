@@ -1,0 +1,20 @@
+<mat-grid-list cols="6" rowHeight="250px">
+    <mat-grid-tile
+        *ngFor="let user of userList">
+          <mat-card class="example-card card-profile">
+            <div class="card card-profile">
+              <div class="card-avatar">
+                <a href="javascript:void(0)">
+                    <img class="img" src="{{user.profpic}}" />
+                </a>
+            </div>
+          </div>
+          <span class="spacer"></span>
+          <mat-card-content>
+            <p><strong>{{user.name}}</strong><strong></strong></p>
+            <p>{{user.designation}}</p>
+          <span class="spacer"></span>
+            </mat-card-content>
+          </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
