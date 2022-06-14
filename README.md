@@ -26,8 +26,8 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-##How to run typi code in your local
+## How to run typi code in your local
 sudo npm install -g json-server
 ### If you running globaly, go the end point and replace the url with bellow code
-https://my-json-server.typicode.com/<your-username>/<your-repo>
+https://my-json-server.typicode.com/<<your-username>>/<<your-repo>>
 
