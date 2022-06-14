@@ -1,3 +1,16 @@
+<app-common-header
+    [templateHeader]="header"
+    [templateContent]="content">
+</app-common-header>
+
+<ng-template #header>
+     {{'Home'}}
+</ng-template>
+
+<ng-template #content>
+     {{'Total Users: 20'}}
+</ng-template>
+
 <div class="component-height">
     <app-performance-index *ngIf="kpiData" [kpiData]="kpiData"></app-performance-index>
 </div>

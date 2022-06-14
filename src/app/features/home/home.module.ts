@@ -7,6 +7,7 @@ import { HomeContainer } from './containers/home.container';
 import { HomeView } from './views/home-view/home.view';
 import { PerformanceIndexComponent } from './components/performance-index/performance-index.component';
 import { RecentBlogsComponent } from './components/recent-blogs/recent-blogs.component';
+import { ViewsModule } from 'src/app/views/common-header/views.module';
 
 
 @NgModule({
@@ -18,8 +19,9 @@ import { RecentBlogsComponent } from './components/recent-blogs/recent-blogs.com
   ],
   imports: [
     CommonModule,
-    SharedModule,
     HttpClientModule,
+    SharedModule,
+    ViewsModule
   ]
 })
 export class HomeModule { }

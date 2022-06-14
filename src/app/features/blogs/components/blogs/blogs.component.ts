@@ -16,7 +16,6 @@ export class BlogsComponent implements OnInit {
   ngOnInit(): void {
     this.blogsEndpoint.getAllBlogs().subscribe((data: Blogs[]) => {
       this.blogsList = data;
-      console.log(data)
     })
   }
 

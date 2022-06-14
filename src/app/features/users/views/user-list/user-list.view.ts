@@ -10,6 +10,7 @@ import { User } from '../../types/user';
 })
 export class UserListView implements OnInit {
   userList: User[] = [];
+  isGridView: boolean = false;
 
   constructor(
     private userEndpoint: UserEndpoint

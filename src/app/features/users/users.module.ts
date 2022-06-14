@@ -9,6 +9,7 @@ import { UsersTableComponent } from './components/users-table/users-table.compon
 import { UsersGridComponent } from './components/users-grid/users-grid.component';
 
 import { SharedModule } from 'src/app/shared/shared-module';
+import { ViewsModule } from 'src/app/views/common-header/views.module';
 
 
 @NgModule({
@@ -20,8 +21,9 @@ import { SharedModule } from 'src/app/shared/shared-module';
   ],
   imports: [
     CommonModule,
-    SharedModule,
     HttpClientModule,
+    SharedModule,
+    ViewsModule,
     UsersRoutingModule,
   ]
 })

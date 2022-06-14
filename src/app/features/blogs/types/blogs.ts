@@ -1,7 +1,7 @@
 export interface Blogs {
-    blogpic: URL;
-    title: string;
-    description: string;
-    createddate: Date;
-    username: string
-  }  
+  blogpic: URL;
+  title: string;
+  description: string;
+  createddate: Date;
+  username: string
+}

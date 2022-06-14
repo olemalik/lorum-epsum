@@ -6,6 +6,7 @@ import { SharedModule } from 'src/app/shared/shared-module';
 import { MainBlogsContainer } from './containers/main-blogs/main-blogs.container';
 import { BlogsViewComponent } from './views/blogs-view/blogs.view';
 import { BlogsComponent } from './components/blogs/blogs.component';
+import { ViewsModule } from 'src/app/views/common-header/views.module';
 
 
 @NgModule({
@@ -16,8 +17,9 @@ import { BlogsComponent } from './components/blogs/blogs.component';
   ],
   imports: [
     CommonModule,
+    HttpClientModule,
     SharedModule,
-    HttpClientModule
+    ViewsModule
   ]
 })
 export class BlogsModule { }

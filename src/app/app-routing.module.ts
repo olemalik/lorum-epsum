@@ -10,21 +10,21 @@ const routes: Routes = [
     path: '',
     component: MainComponent,
     children: [
-      {
-        path: 'home',
-        component: HomeContainer,
-      },
-      {
-        path: 'users',
-        component: MainUsersContainer,
-      },
-      {
-        path: 'blogs',
-        component: MainBlogsContainer,
-      },
+        {
+            path: 'home',
+            component: HomeContainer,
+        },
+        {
+            path: 'users',
+            component: MainUsersContainer,
+        },
+        {
+          path: 'blogs',
+          component: MainBlogsContainer,
+        },
     ],
     data: {
-      //title: appsettings.titles.myHealth
+        //title: appsettings.titles.myHealth
     }
   }
 ];
